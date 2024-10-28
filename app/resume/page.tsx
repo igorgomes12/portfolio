@@ -1,35 +1,35 @@
 "use client";
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaNodeJs,
-  FaGithub,
-  FaFigma,
-} from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+// import {
+//   FaHtml5,
+//   FaCss3,
+//   FaJs,
+//   FaReact,
+//   FaNodeJs,
+//   FaGithub,
+//   FaFigma,
+// } from "react-icons/fa";
+// import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
-const about = {
-  title: "About me",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur, id est impedit dignissimos et corporis",
-  info: [
-    { fielName: "Nome", fieldValue: "Igor Gomes" },
-    { fielName: "Telefone", fieldValue: "(+55) 31 9 9400-2300" },
-    { fielName: "Experiência", fieldValue: "4+ Years" },
-    { fielName: "Nacionalidade", fieldValue: "Brasileiro" },
-    { fielName: "Email", fieldValue: "igorgomesigla@gmail.com" },
-    { fielName: "Freelance", fieldValue: "Disponível" },
-    {
-      fielName: "Linguagens",
-      fieldValue: "Português, Espanhol, Inglês intermediario",
-    },
-  ],
-};
+// const about = {
+//   title: "About me",
+//   description:
+//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur, id est impedit dignissimos et corporis",
+//   info: [
+//     { fielName: "Nome", fieldValue: "Igor Gomes" },
+//     { fielName: "Telefone", fieldValue: "(+55) 31 9 9400-2300" },
+//     { fielName: "Experiência", fieldValue: "4+ Years" },
+//     { fielName: "Nacionalidade", fieldValue: "Brasileiro" },
+//     { fielName: "Email", fieldValue: "igorgomesigla@gmail.com" },
+//     { fielName: "Freelance", fieldValue: "Disponível" },
+//     {
+//       fielName: "Linguagens",
+//       fieldValue: "Português, Espanhol, Inglês intermediario",
+//     },
+//   ],
+// };
 const experience = {
   icon: "/assests/assets/resume/badge.svg",
   title: "Experiência",
@@ -96,82 +96,82 @@ const experience = {
   ],
 };
 
-const education = {
-  icon: "/assests/assets/resume/cap.svg",
-  title: "Educação",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur, id est impedit dignissimos et corporis",
-  items: [
-    {
-      institution: "Universidade Estácio",
-      degree: "Analise e desenvolvimento de sistemas",
-      duration: "2022 - 2025",
-    },
-    {
-      institution: "Rocketseat Academy",
-      degree: "Cursos",
-      duration: "2022 - Atual",
-    },
-    {
-      institution: "Alura",
-      degree: "Cursos",
-      duration: "2022 - Atual",
-    },
-  ],
-};
+// const education = {
+//   icon: "/assests/assets/resume/cap.svg",
+//   title: "Educação",
+//   description:
+//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur, id est impedit dignissimos et corporis",
+//   items: [
+//     {
+//       institution: "Universidade Estácio",
+//       degree: "Analise e desenvolvimento de sistemas",
+//       duration: "2022 - 2025",
+//     },
+//     {
+//       institution: "Rocketseat Academy",
+//       degree: "Cursos",
+//       duration: "2022 - Atual",
+//     },
+//     {
+//       institution: "Alura",
+//       degree: "Cursos",
+//       duration: "2022 - Atual",
+//     },
+//   ],
+// };
 
-const skills = {
-  title: "Habilidades",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur, id est impedit dignissimos et corporis",
-  skillList: [
-    {
-      icon: FaHtml5,
-      name: "HTML5",
-      level: "Experiência Avançada",
-    },
-    {
-      icon: FaCss3,
-      name: "Css 3",
-      level: "Experiência Avançada",
-    },
-    {
-      icon: FaJs,
-      name: "Javascript",
-      level: "Experiência Avançada",
-    },
-    {
-      icon: FaReact,
-      name: "React.js",
-      level: "Experiência Avançada",
-    },
-    {
-      icon: FaNodeJs,
-      name: "Node.js",
-      level: "Experiência Avançada",
-    },
-    {
-      icon: FaGithub,
-      name: "Git",
-      level: "Experiência Avançada",
-    },
-    {
-      icon: FaFigma,
-      name: "Figma",
-      level: "Experiência Intermediária",
-    },
-    {
-      icon: SiTailwindcss,
-      name: "Tailwind CSS",
-      level: "Experiência Avançada",
-    },
-    {
-      icon: SiNextdotjs,
-      name: "Next.js",
-      level: "Experiência Avançada",
-    },
-  ],
-};
+// const skills = {
+//   title: "Habilidades",
+//   description:
+//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur, id est impedit dignissimos et corporis",
+//   skillList: [
+//     {
+//       icon: FaHtml5,
+//       name: "HTML5",
+//       level: "Experiência Avançada",
+//     },
+//     {
+//       icon: FaCss3,
+//       name: "Css 3",
+//       level: "Experiência Avançada",
+//     },
+//     {
+//       icon: FaJs,
+//       name: "Javascript",
+//       level: "Experiência Avançada",
+//     },
+//     {
+//       icon: FaReact,
+//       name: "React.js",
+//       level: "Experiência Avançada",
+//     },
+//     {
+//       icon: FaNodeJs,
+//       name: "Node.js",
+//       level: "Experiência Avançada",
+//     },
+//     {
+//       icon: FaGithub,
+//       name: "Git",
+//       level: "Experiência Avançada",
+//     },
+//     {
+//       icon: FaFigma,
+//       name: "Figma",
+//       level: "Experiência Intermediária",
+//     },
+//     {
+//       icon: SiTailwindcss,
+//       name: "Tailwind CSS",
+//       level: "Experiência Avançada",
+//     },
+//     {
+//       icon: SiNextdotjs,
+//       name: "Next.js",
+//       level: "Experiência Avançada",
+//     },
+//   ],
+// };
 
 export default function Resume() {
   return (
